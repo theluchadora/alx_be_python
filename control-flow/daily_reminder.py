@@ -15,6 +15,6 @@ match priority:
 
 
 if time_bound == "yes":
-    print(f"\nReminder: '{task}' is a {priority_text} that requires immediate attention today!")
+    print(f"Reminder: '{task}' is a {priority_text} that requires immediate attention today!")
 else:
-    print(f"\nNote: '{task}' is a {priority_text}. Consider completing it when you have free time.")
+    print(f"Note: '{task}' is a {priority_text}. Consider completing it when you have free time.")
